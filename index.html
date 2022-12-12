@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Project</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https:use.fontawesome.com/3f82a91513.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="images/Dog.jpg" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="home.html">Home</a></li>
+          <li><a href="Address.html">Address</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Pricing.html">Pricing</a></li>
+          <li>
+            <a href="Cart.html"
+              ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="Entrance">
+      <div class="Welcome">
+        <h1>WELCOME TO <em>TINDOG</em></h1>
+      </div>
+      <div class="Help">
+        <h2>How can we be of help?</h2>
+      </div>
+    </section>
+
+    <section id="Features">
+      <div id="Feature-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>
+              Afghan hound, breed of dog developed as a hunter in the hill
+              country of Afghanistan. <br />
+              It was once thought to have originated several thousand years ago
+              in Egypt,<br />
+              but there is no evidence for this theory!
+            </h2>
+            <img class="feature-image" src="images/Afghan-Hound.jpg" alt="" />
+          </div>
+          <div class="carousel-item">
+            <h2>
+              Airedale Terriers used to be one of the most popular dog <br />
+              breeds in the United States. <br />
+              They are incredibly versatile and intelligent, <br />
+              and they love to be part of a family!
+            </h2>
+            <img
+              class="feature-image"
+              src="images/Airedale-Terrier.jpg"
+              alt=""
+            />
+          </div>
+          <div class="carousel-item">
+            <h2>
+              Akita, also called Akita dog, breed of working dog that originated
+              <br />
+              in the mountains of northern Japan. <br />
+              In 1931 the Japanese government <br />
+              designated the breed as a “natural monument!
+            </h2>
+            <img class="feature-image" src="images/Akita.jpg" alt="" />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#Feature-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#Feature-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <section id="More">
+      <div>
+        <form
+          action="/cgi-bin/test.cgi"
+          name="myForm"
+          onsubmit="return(validate());"
+        >
+          <h2>To know more about us,kindly fill form below</h2>
+          <label class="Name" for="name">name</label>
+          <input type="text" name="name" id="fname" /><br />
+          <label class="Name" for="Last name">Email</label>
+          <input type="text" name="lname" id="lname" /> <br />
+          <button type="submit" class="btn btn-primary btn-xl" id="HelloButton">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
